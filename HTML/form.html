@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validations</title>
+<script src="/JS/form.js"></script>
+</head>
+<body>
+    <form id="myForm" onsubmit="validateForm()">
+    <label style="color:blue">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label style="color:green">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <input type="submit" value="Submit">
+
+    </form>
+    <br><br>
+
+    <button onclick="changeSite('https://www.nagarjunadegreecollege.co.in')">Site 1</button>
+    <button onclick="changeSite('https://www.virtuospark.com')">Site 2</button>
+    <button onclick="changeSite('https://www.flipkart.com/')">Site 3</button>
+
+    <button id="chHWbtn">Click Me</button>
+
+    <iframe id="myFrame"
+    src="https://www.virtuospark.com"
+    width="800" height="600"
+    title="nanotaxibooking">
+    </iframe>
+
+    <iframe id="myFrame"
+    src="https://www.flipkart.com"
+    width="1000" height="1000"
+    title="Flipkart">
+    </iframe>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+display:flex;
+justify-content: center;
+position:center;
+align-items:center;
+}
+
+#food > h1{
+    background-color:rgb(247, 244, 114);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#food > p {
+    background-color: rgb(247, 244, 134);
+    font-family:arial;
+}
+
+.acc {
+    background-color:lightblue;
+    
+}

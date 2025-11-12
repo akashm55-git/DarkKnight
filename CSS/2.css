@@ -1,0 +1,26 @@
+input[type=text]{
+    border:2px solid black;
+    padding:5px;
+    font-weight: bold;
+}
+
+input[type=email]{
+    border:2px solid blue;
+    background-color:#f2f2f2;
+}
+
+input[type=number]{
+    background-color: #e9b9a7;
+}
+
+input[required]{
+    background-color: purple;
+}
+
+p:first-letter{
+    color:crimson;
+    font-size:25px;
+    background-color:lightblue;
+    font-family:Georgia;
+    font-weight:bold;
+}

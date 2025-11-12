@@ -1,0 +1,97 @@
+h1 {
+    color:rgb(14, 14, 194);
+}
+
+p {
+    color:pink;
+    font-size:25px;
+}
+
+div p {
+    color:lightcoral;
+    font-size:25px;
+}
+
+button {
+    background-color:lightblue;
+    border-style:dashed;
+}
+
+.btn {
+    background-color:crimson;
+    padding:10px;
+}
+
+#btl {
+    background-color:blueviolet;
+    margin:5px;
+}
+
+input[type=text] {
+    font-weight:bold;
+    border:2px solid royalblue;
+}
+
+input[type=email]{
+    background-color:lightgrey;
+    font-family:Georgia;
+}
+
+input[type=number]{
+    border: 2px solid lightgreen;
+}
+
+ol > li {
+    color:darkblue;
+    font-size:16px;
+    font-family:Arial;
+}
+
+h3, h4, p{
+    font-family:courier;
+    font-weight:bold;
+    font-size:28px;
+    color:rgb(12, 117, 174);
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    font-size:25px;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+a:active{
+    color:green;
+}
+
+th {
+    color:red;
+}
+
+td, th {
+    border:2px solid orange;
+    text-align:center;
+    font-family:Verdana;
+    border-collapse: collapse;
+    padding:5px;
+    font-size:20px;
+}
+
+table:nth-child(even) {
+    color:blue;
+}
+
+caption{
+    color:blue;
+    background-color:lightpink;
+    font-size:20px;
+}

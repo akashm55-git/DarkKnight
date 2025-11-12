@@ -1,0 +1,54 @@
+/* Custom CSS to apply specific colors and styles */
+
+/* Ensure the main body has a light background */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Base style for all custom cards */
+.card {
+    border: none;
+    border-radius: 0.5rem; /* Slightly rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex; /* Makes the card a flex container */
+    flex-direction: column; /* Stacks content vertically */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px); /* Lift card slightly */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; /* Enhanced shadow */
+}
+
+/* --- Specific Card Styles (Colors based on the image) --- */
+
+.voice-card {
+    background-color: #5560a9; /* Deep Purple-Blue */
+}
+
+.video-card {
+    background-color: #499e63; /* Dark Green */
+}
+
+.whatsapp-card {
+    background-color: #d8575c; /* Reddish/Coral */
+}
+
+.zoom-card {
+    background-color: #e5a44e; /* Orange/Gold */
+}
+
+.teams-card {
+    background-color: #4eb2cc; /* Teal/Light Blue */
+}
+
+.sip-card {
+    background-color: #5b5454; /* Dark Gray/Brown */
+}
+
+/* Adjust button styling inside the colored cards to be white/light */
+.card .btn-light {
+    color: #000; /* Black text on white button */
+    border-radius: 0.25rem;
+    font-weight: 600;
+}

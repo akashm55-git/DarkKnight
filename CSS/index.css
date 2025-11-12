@@ -1,0 +1,50 @@
+h1 {
+    color:blue;
+}
+p {
+    color:rgb(0, 94, 156);
+}
+button {
+    background-color:lightblue;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+body {
+    background-color:lightgreen;
+}
+
+.button {
+    background-color: rgb(202, 98, 98);
+}
+
+#button {
+    background-color: lightsalmon;
+}
+
+input[type="text"]{
+    background-color:lightskyblue;
+    color:white;
+    padding:10px;
+    margin:10px;
+}
+
+input[type="email"]{
+    background-color:rgb(209, 189, 209) ;
+    color:white;
+    padding-top:10px;
+    margin:10px;
+}
+
+input[type="number"]{
+    background-color: rgb   (42, 177, 177);
+
+}
+
+p:first-line {
+    color:rgb(255, 2, 65);
+    font-weight:bold;
+}
